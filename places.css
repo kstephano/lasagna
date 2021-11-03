@@ -1,0 +1,15 @@
+img{
+    width: 200px;
+    height: 220px;
+}
+
+@media only screen and (max-width: 620px) {
+    html body {
+        background-color: black;
+        color: white;
+    }
+
+    img {
+        object-fit:cover;
+    }
+}
